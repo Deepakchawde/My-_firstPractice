@@ -1,0 +1,111 @@
+Deepak chawde
+
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        modified:   new.txt
+        renamed:    sec.txt -> sec_remane.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.txt
+
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        modified:   new.txt
+        renamed:    sec.txt -> sec_remane.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.txt
+
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git add .
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        modified:   new.txt
+        renamed:    sec.txt -> sec_remane.txt
+
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git commit -m "changed6"
+[master f5741d3] changed6
+ 3 files changed, 2 insertions(+), 7 deletions(-)
+ rename sec.txt => sec_remane.txt (100%)
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git log
+commit f5741d3bdc3e20673693917174cbfebf3603f74e (HEAD -> master)
+Author: Deepak <deepakchawade8@gmail.com>
+commit f5741d3bdc3e20673693917174cbfebf3603f74e (HEAD -> master)
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 15:52:58 2020 +0530
+
+    changed6
+
+commit b04762953c12680faf18bcc456230f7d0592c7dd
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 15:41:39 2020 +0530
+
+    changed5
+
+commit 80b6d3d0bd04d08015598d8eabe5569e01cb920f
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 14:57:29 2020 +0530
+
+    change 4
+
+commit 6cb6288c16a55d9a27c9119633c356f0cd753ba4
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 14:54:09 2020 +0530
+
+    change 3
+
+commit 73b9e9c52d688ea40c22f4084c804d830e8ff4dc
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 13:10:49 2020 +0530
+
+    change 2
+
+commit 21900eb75c3c4d2303de86db5f88fea3f680f147
+Author: Deepak <deepakchawade8@gmail.com>
+Date:   Sun Sep 27 13:05:34 2020 +0530
+
+    change1
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ q
+bash: q: command not found
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ q
+bash: q: command not found
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$
+q
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ q
+bash: q: command not found
+q
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+DEEPAK@Deepak MINGW64 /e/Projects/Git project (master)
+$
